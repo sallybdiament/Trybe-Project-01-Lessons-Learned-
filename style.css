@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+p {
+  color: blue;
+  line-height: 30px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  right: 300px;
+}
+
+main {
+  position: absolute;
+  top: 100px;
+  font-family: sans-serif;
+  font-size: 110%;
+}
+
+footer {
+  position: absolute;
+  top: 1500px;
+  text-align: center;
+  left: 500px;
+}
+
+table {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 100 100px;
+}
+
+.lado-esquerdo {
+  display: block;
+  float: left;
+  width: 500px;
+}
+
+.lado-direito {
+  display: block;
+  float: right;
+  width: 500px;
+}
